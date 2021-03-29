@@ -4,17 +4,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Learn Canvas</title>
+    <title>techGame</title>
+    <link rel="shortcut icon" href="./favicon.ico">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <canvas>
+    <h1 class="top">IQ-Technology-Game</h1>
+    <div class="quiz">
+        <div id="wrap">
+            <div class="q-tion">
+                <span id="qu">Câu hỏi ?</span>
+            </div>
+            <div class="input aw">
+                <input type="radio" name="uni" value="a">
+                <label for="a" id="a">2 3 4</label>
+                </input>
+            </div>
+            <div class="input aw">
+                <input type="radio" name="uni" value="b">
+                <label for="b" id="b">1 2 3 4</label>
+                </input>
+            </div>
+            <div class="input aw">
+                <input type="radio" name="uni" value="c">
+                <label for="c" id="c">1 2 3 4</label>
+                </input>
+            </div>
+            <div class="input aw">
+                <input type="radio" name="uni" value="d">
+                <label for="d" id="d">1 2 3 4</label>
+                </input>
+            </div>
+            <button id="btn">Submit</button>
+        </div>
+        <div id="final">
+            <h1>Finished game,thank!!!</h1>
+            <button id="new">Restart</button>
+        </div>
+    </div>
 
-    </canvas>
-    <h1 style="position: absolute;justify-content: center;align-items: center;min-height: 100vh;top: 90px; left: 370px;text-transform: uppercase;color: rebeccapurple;">Nguyễn Hữu Phúc</h1>
+    <div class="soccer">
+        <h1 id="hide-soccer"></h1>
+    </div>
+    <script src="./game.js"></script>
 </body>
-<!--<script src="canvas.js"></script>-->
-<script src="canvas2.js"></script>
 
 </html>
