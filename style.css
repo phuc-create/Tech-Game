@@ -110,3 +110,7 @@ button:hover {
     text-align: center;
     display: none;
 }
+
+label {
+    text-transform: capitalize;
+}
